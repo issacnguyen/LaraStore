@@ -1,0 +1,16 @@
+[2021-02-13 00:36:03] production.ERROR: Class 'Intervention\Image\ImageServiceProvider' not found {"exception":"[object] (Error(code: 0): Class 'Intervention\\Image\\ImageServiceProvider' not found at C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php:208)
+[stacktrace]
+#0 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(144): Illuminate\\Foundation\\ProviderRepository->createProvider('Intervention\\\\Im...')
+#1 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(61): Illuminate\\Foundation\\ProviderRepository->compileManifest(Array)
+#2 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(634): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#3 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#4 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#5 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#6 C:\\laragon\\www\\hthstore\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#7 C:\\laragon\\www\\hthstore\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2021-02-13 02:33:28] production.ERROR: Method Illuminate\View\View::__toString() must not throw an exception, caught Facade\Ignition\Exceptions\ViewException: syntax error, unexpected '--' (T_DEC), expecting ',' or ';' (View: C:\laragon\www\hthstore\resources\views\install.blade.php) {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Method Illuminate\\View\\View::__toString() must not throw an exception, caught Facade\\Ignition\\Exceptions\\ViewException: syntax error, unexpected '--' (T_DEC), expecting ',' or ';' (View: C:\\laragon\\www\\hthstore\esources\\views\\install.blade.php) at C:\\laragon\\www\\hthstore\\public\\install.php:0)
+[stacktrace]
+#0 {main}
+"} 
