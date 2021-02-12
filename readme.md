@@ -131,7 +131,7 @@ If installing with link "install.php" unsuccessful, you can install it manually 
 - 1: Import file database/*.sql to database.
 - 2: Rename or delete file public/install.php
 - 3: Copy file .env.example to .env if file .env not exist.
-- 4: Generate API key if APP_KEY is null. 
+- 4: Generate API key if APP_KEY is null.
   Use command "php artisan key:generate"
 - 5: Generates the encryption keys
   Use command "php artisan passport:keys"
@@ -180,28 +180,6 @@ To manually customize the admin page:
 `php artisan sc:customize admin`
 
 This command will create new directories `resources/views/admin` and file `config/admin.php`
-After set the value `customize=true` in `config/admin.php` you can modify template admin. 
+After set the value `customize=true` in `config/admin.php` you can modify template admin.
 
-More detail: https://s-cart.org/en/docs/master
-
-## Funding and supporting the project
-
-You can support our with donations and sponsoring. Sponsorships are crucial for ongoing and future development of the project. Any support is always welcome even if it's as low as $1 :) 
-Please visit the <a href="https://s-cart.org/en/license.html" target="_blank">S-Cart</a>
-
-## Security Vulnerabilities:
-
-If you discover a security vulnerability within S-Cart ecommerce, please send an e-mail to Lanh Le via lanhktc@gmail.com. All security vulnerabilities will be promptly addressed.
-
-## License:
-
-`S-Cart` is licensed under [The MIT License (MIT)](LICENSE).
-
-## Demo:
-
-- Font-end : http://demo.s-cart.org
-- Back-end: http://demo.s-cart.org/sc_admin   <code>User/pass: test/123456</code>
-
-## 
-
-VPS SSD $5/mo, gets $100 in credit over 60 days. [DigitalOcean](https://m.do.co/c/84e350ce07c4).
+More detail: https://issacnguyen.us
